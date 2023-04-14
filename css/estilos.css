@@ -1,0 +1,281 @@
+/* indica el estilo css de todo el html */
+html {
+    font-size: 50px;
+}
+/* indica el estilo css de toda la pagina */
+* {
+    box-sizing: border-box;
+}
+/* indica el estilo css de todo el body */
+body {
+	font-family: 'Fasthand', cursive;
+	margin: 0;
+	padding: 0;
+    margin-bottom: 90px;
+}
+/* indica el estilo css de todo el body de las paginas web de los grupos musicales */
+.bodycontact {
+    margin-bottom: 120px;
+}
+/* indica el estilo css de todo el body de la pagina web de datos de la empresa o contacto */
+.bodycontacto {
+    font-family: 'Roboto', sans-serif;
+}
+/* indica el estilo css del encabezado */
+header {
+    padding: 20px;
+    height: 50vh;
+    background-image: url("./../img/header_vinyl4.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+/* indica el estilo css de la sección main */
+main {
+    background-color: rgb(179, 179, 179);
+}
+/* indica el estilo css del pie de pagina */
+footer {
+	background-color: rgb(159, 159, 159);
+	padding: 3px;
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+    z-index: 2;
+}
+/* indica el estilo css de los elementos del pie de pagina */
+footer a {
+    text-decoration: none;
+    color: white;
+	margin-left: 50%;
+}
+/* indica el estilo css de los elementos del panel de navegación */
+nav li {
+    border: 0.3px solid black;
+    padding: 10px;
+    border-radius: 20px;
+    border-color: #000000;
+    background-color: rgba(1, 2, 2, 0.5);
+	display: inline-block;
+	margin-right: 20px;
+}
+/* indica el estilo css de los elementos del panel de navegación */
+nav a {
+	color: #ffffff;
+	text-decoration: none;
+}
+/* indica el estilo css de los elementos del panel de navegación al arrastrar el ratón por encima */
+nav a:hover {
+	color: #000000;
+}
+/* indica el estilo css del titulo del header */
+.tituloheader {
+    width: 100%;
+    margin-top: -5%;
+    text-align: center;
+    font-size: 2rem;
+    color: #ffffff;
+}
+/* indica el estilo css de las columnas de la pagina */
+.row2 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 95%;
+    margin: 0 auto;
+}
+/* indica el tamaño del titulo de los grupos */
+.colgrupos {
+    width: 100%;
+}
+/* indica el estilo css del titulo de los grupos */
+.titulogrupospop {
+    text-align: center;
+    font-size: 1rem;
+}
+/* indica el estilo css de las columnas que se dividen en 4 elementos */
+.column-4 {
+    width: 25%;
+    padding: 20px;
+    box-shadow: 0 0 20px rgba(179, 179, 179, 0.6);
+    transition: 1s;
+}
+/* indica el estilo css de otras columnas que se dividen en 4 elementos (la de las paginas de los grupos musicales) */
+.column-4-1 {
+    width: 23%;
+    padding: 20px;
+    margin: 10px;
+}
+/* indica el estilo css de las columnas que se dividen en 4 elementos al arrastrar el ratón por encima */
+.column-4:hover {
+    transform:scale(1.1);
+    z-index: 1;
+    border-radius: 20px;
+}
+/* indica el ancho y el estil del borde de las imagenes de los grupos */
+.widthimggrupospop {
+    width: 100%;
+    border: 0.3px solid black;
+    border-radius: 20px;
+    border-color: #000000;
+    margin-top: -5%;
+}
+/* indica el ancho y el estil del borde de las imagenes de los grupos */
+.widthimggrupospop2 {
+    width: 100%;
+    border: 0.3px solid black;
+    border-radius: 20px;
+    border-color: #000000;
+}
+/* indica el estilo css del formulario */
+.formulario {
+    text-align: center;
+}
+/* indica el estilo css del titulo del encabezado de la pagina de contacto */
+.tituloheadercontacto {
+    width: 100%;
+    margin-top: -5%;
+    text-align: center;
+    font-size: 3rem;
+    color: #000000;
+}
+/* indica el estilo css del texto de la pagina de contactos */
+.textocontacto {
+    width: 100%;
+    text-align: center;
+    font-size: 0.9rem;
+    color: #353535;
+}
+/* indica el margin izquierdo de los datos de contacto */
+.margindatoscontacto {
+    margin-top: 10px;
+}
+/* indica el estilo css de las columnas que se dividen en dos elementos (utilizados en las paginas de los grupos musicales) */
+.column-2 {
+    width: 50%;
+    padding: 20px;
+}
+/* indica el estilo css que centra los elementos a del pie de pagina de las paginas de los grupos musicales */
+.center-footer-a{
+    display: block;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+/* indica el ancho y el estil del borde de las imagenes de los grupos */
+.widthimgfooter {
+    width: 10%;
+    border: 0.1px solid black;
+    border-radius: 20px;
+    border-color: #000000;
+}
+/* indica el estilo de las imagenes del carousel de discos */
+.widthimgdiscos {
+    margin-left: 5%;
+    margin-top: -2.5%;
+}
+/* indica el estilo de la seccion del carousel */
+.section1{
+    display: flex;
+    width: 700px;
+    height: 430px;
+}
+/* indica el estilo de las imagenes del section1 */
+.section1 img{
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+    transition: .5s ease;
+    border-radius: 10px;
+}
+/* indica la animacion que hacen las img de la seccion del carousel al pasar el raton por encima */
+.section1 img:hover{
+    cursor: crosshair;
+    width: 300px;
+    opacity: 1;
+    filter: contrast(120%);
+}
+/* indica el estilo css de las imgs de los idiomas del footer */
+.imgfooter {
+    margin-left: 22.5%;
+    width: 50%;
+}
+
+/* indican las media queries que se aplican cuando la pantalla es de tamaño menor a 600px */
+@media screen and (max-width: 800px) {
+    /* indica el cambio de letra al aplicar la media query */
+    html {
+        font-size: 25px;
+    }
+    /* indica la media query del body */
+    body {
+        margin-bottom: 50px;
+    }
+    /* indica el estilo css de todo el body de la pagina web de datos de la empresa o contacto */
+    .bodycontacto {
+        margin-bottom: 200px;
+    }
+    /* indica la media query del panel de navegación de la pagina principal */
+    nav li {
+        border: 0.3px solid black;
+        padding: 10px;
+        border-radius: 20px;
+        border-color: #000000;
+        background-color: rgba(1, 2, 2, 0.5);
+        display: inline-block;
+        margin-right: 5px;
+        margin-top: 9px;
+        font-size: 1rem;
+    }
+    /* indica la media query del pie de pagina de la pagina principal */
+    footer a {
+        margin-left: 200px;
+    }
+    /* indica la media query del titulo del encabezado la pagina principal */
+    .tituloheader {
+        width: 100%;
+        margin-top: 20%;
+        text-align: center;
+        font-size: 3rem;
+        color: #000000;
+    }
+    /* indica la media query de las filas, haciendo que las pasen a medir un 90% de la pantalla  */
+    .row2 {
+        width: 90%;
+    }
+    /* indica la media query del titulo de cada sección de las paginas web */
+    .titulogrupospop {
+        text-align: center;
+        font-size: 2rem;
+    }
+    /* indica la media query de la columna que se divide en 4 elementos, haciendo que ahora solo se vean dos columnas y no 4 */
+    .column-4 {
+        width: 50%;
+    }
+    /* indica la media query de la columna que se divide en 2 elementos, haciendo que ahora solo se vea en 1 fila cada elemento y no dividido en dos columnas */
+    .column-2 {
+        width: 100%;
+        padding: 20px;
+    }
+    /* indica la media query de todo el body de la pagina web de datos de la empresa o contacto */
+    .textocontacto {
+        width: 100%;
+        text-align: center;
+        font-size: 1.2rem;
+        color: #353535;
+    }
+    /* indica la media query de todo el body de las paginas web de los grupos musicales */
+    .bodycontact {
+        margin-bottom: 150px;
+    }
+    /* indica la media query para que se modifique el ancho y el estil del borde de las imagenes de los grupos */
+    .widthimgfooter {
+        width: 10%;
+        margin-left: 15%;
+    }
+    /* indica la media query de otras columnas que se dividen en 4 elementos (la de las paginas de los grupos musicales) */
+    .column-4-1 {
+        width: 40%;
+    }
+}
